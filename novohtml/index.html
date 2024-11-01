@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistema de Cadastro de Alunos</h1>
+    <h2>Cadastrar Alunos</h2>
+    <form>
+        Nome:   <input type="text" name="name" /><br>
+        Idade:  <input type="number" name="age" /><br>
+        Email:  <input type="email" name="email" /><br>
+
+        Curso : <select name="select">
+            <option value="valor1">Desenvolvimento de Sistemas</option>
+            <option value="valor2" selected>Engenharia de Software</option>
+            <option value="valor3">CyberSecurity</option>
+        </select>
+        <button type="submit">Cadastrar</button>
+        <h1>Lista de Alunos</h1>
+    </form>    
+
+    <table border="solid"> 
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Curso</th>
+
+            </tr>
+            <tbody>
+                <tr>
+                    <th scope="row">Diego</th>
+                    <td>Diegodasilva365@gmail.com</td>
+                    <td>20</td>
+                    <td>Desenvolvimento de Sistemas</td>
+                </tr>
+                <tr>
+                    <th scope="row">jorge</th>
+                    <td>jorgedaborracharia@gmail.com</td>
+                    <td>45</td>
+                    <td>Borracharia</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sara</th>
+                    <td>Saradobrega@gmail.com</td>
+                    <td>29</td>
+                    <td>Musica</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kelly</th>
+                    <td>Kellynguiça@gmail.com</td>
+                    <td>68</td>
+                    <td>Engenharia Alimenticia</td>
+                </tr>
+            </tbody>
+            <tfoot>
+        </thead>
+    </table>
+</html>
